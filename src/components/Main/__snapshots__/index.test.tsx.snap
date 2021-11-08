@@ -1,9 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render correctly 1`] = `
-<div>
-  <h1>
-    Hello World
+.c0 {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c3 {
+  -webkit-animation: MoveUpDown 2s ease-in-out infinite;
+  animation: MoveUpDown 2s ease-in-out infinite;
+  margin-top: 3rem;
+  width: min(54rem,100%);
+}
+
+<main
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    My Next.JS Boilerplate
   </h1>
-</div>
+  <h2
+    class="c2"
+  >
+    TypeScript, ReactJS, NextJS and Styled Components
+  </h2>
+  <img
+    alt="Cartoon style illustration of a rocket in space"
+    class="c3"
+    src="/rocket-illustration.svg"
+  />
+</main>
 `

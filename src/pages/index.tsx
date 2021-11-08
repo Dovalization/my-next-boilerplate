@@ -1,13 +1,7 @@
-interface IHomeProps {
-  title: string
-}
+import Main from '@/components/Main'
 
-const Home = ({ title = 'Hello World!' }: IHomeProps) => {
-  return (
-    <div>
-      <h1>{title}</h1>
-    </div>
-  )
+const Home = () => {
+  return <Main />
 }
 
 export default Home
