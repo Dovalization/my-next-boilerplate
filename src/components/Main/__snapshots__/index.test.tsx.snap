@@ -6,4 +6,4 @@ exports[`<Main /> should render correctly 1`] = `
     Hello World
   </h1>
 </div>
-`;
+`
