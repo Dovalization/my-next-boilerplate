@@ -50,17 +50,17 @@ exports[`<Main /> should render correctly 1`] = `
   <h1
     class="c1"
   >
-    My Next.JS Boilerplate
+    My Next.Js Boilerplate
   </h1>
   <h2
     class="c2"
   >
-    TypeScript, ReactJS, NextJS and Styled Components
+    TypeScript, ReactJS, NextJS e Styled Components
   </h2>
   <img
     alt="Cartoon style illustration of a rocket in space"
     class="c3"
-    src="/rocket-illustration.svg"
+    src="/img/rocket-illustration.svg"
   />
 </main>
 `

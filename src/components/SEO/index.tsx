@@ -15,7 +15,7 @@ const SEO = ({
   image,
   shouldExcludeTitleSuffix = false,
   shouldIndexPage = true
-}: SEOProps): JSX.Element => {
+}: SEOProps) => {
   const pageTitle = `${title} ${
     !shouldExcludeTitleSuffix ? '| My Next.JS Boilerplate' : ''
   }`
@@ -26,23 +26,21 @@ const SEO = ({
   return (
     <Head>
       <title>{pageTitle}</title>
-      <html lang="en" />
       {description && <meta name="description" content={description} />}
       {pageImage && <meta name="image" content={pageImage} />}
 
       {!shouldIndexPage && <meta name="robots" content="noindex, nofollow" />}
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href="/img/favicon.ico" />
       <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
       <meta name="MobileOptimized" content="320" />
       <meta name="HandheldFriendly" content="True" />
-      <meta name="theme-color" content="#E93A50" />
-      <meta name="msapplication-TileColor" content="#E93A50" />
+      <meta name="theme-color" content="#2B77BC" />
+      <meta name="msapplication-TileColor" content="#2B77BC" />
       <meta name="referrer" content="no-referrer-when-downgrade" />
       <meta name="google" content="notranslate" />
-
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:locale" content="pt_BR" />
+      <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={pageTitle} />
       <meta property="og:image" content={pageImage} />
